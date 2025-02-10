@@ -84,7 +84,7 @@ public class Game {
     }
     private void meetCustomer() {
         Random rand = new Random();
-        boolean isJinsang = rand.nextInt(100)<80; // 20 % 확률 손님 등장;
+        boolean isJinsang = rand.nextInt(100)<30; // 30 % 확률  진상 손님 등장;
         if(isJinsang){
             System.out.println("평화로운 영업시간! 진상 손님이 등장했습니다!");
             FightManager fight=new FightManager(managerName);
